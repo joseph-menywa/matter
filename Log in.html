@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Log In</title>
+  <link rel="stylesheet" href="boostrap/css/bootstrap.min.css">
+    <script scr="bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<h1  class="text-center">SIGN IN</h1>
+<form action="" class="p-5">
+
+<!--row--->
+<div class="row mb-3">
+  <!--first row-->
+  <div class="col">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" id="email" class="form-control" required="required">
+
+  </div>
+
+  <!--second row-->
+  <div class="col">
+    <label for="pwd" class="form-label">Password</label>
+    <input type="password" id="pwd" class="form-control" required="required">
+
+  </div>
+
+</div>
+<!---end of row-->
+<label for="address1">Address 1</label>
+<input type="text" id="address1" placeholder="1234 Main Street" class="form-control mb-3" required="required">
+
+<label for="address2">Address 2</label>
+<input type="text" id="address2" placeholder="1234 Main Street" class="form-control mb-3" required="required">
+
+<!--row--->
+<div class="row mb-3">
+  <!--first row-->
+  <div class="col">
+    <label for="city" class="form-label">City</label>
+    <input type="text" id="city" class="form-control" required="required">
+
+  </div>
+
+  <!--second row-->
+  <div class="col">
+    <label for="state">state :</label>
+   <select name="" id="state" class="form-control">
+        <option value="Choose" disabled="disabled">Choose____</option>
+        <option value="state 1">Chile</option>
+        <option value="state 2">Califonia</option>
+        <option value="state 3">Kenya</option>
+        <option value="state 4">Ethopia</option>
+        <option value="state 5">Uganda</option>
+    </select>
+    </div>
+
+
+    <!--third row-->
+  <div class="col">
+     <div class="col">
+    <label for="state" class="form-label">Zip</label>
+    <input type="text" id="zip" class="form-control" required="required">
+  </div>
+  </div>
+
+</div>
+<!---end of row-->
+
+  <input type="checkbox" id="check">
+  <label for="check">Check me out</label>
+  <br><br><br>
+   <button class="btn btn-primary">Sign in</button>
+
+</form>
+</body>
+</html>
